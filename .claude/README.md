@@ -90,6 +90,13 @@ referenced.
 |---|---|
 | [`/update-h15-agentic-coding`](skills/update-h15-agentic-coding/) | Pull newer beta versions of skills/agents/`CLAUDE.md` from <https://github.com/hailo-ai/hailo15-agentic-coding> if its `HEAD` is committed after this repo's. Overwrites matching files.|
 
+### Lifecycle
+
+| Skill | What it does |
+|---|---|
+| [`/sw-update`](skills/sw-update/) | Update the board's sw version according to the quick-start guide. |
+
+
 ## Agents
 
 Agents are not invoked directly - skills call them when they need scoped
